@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a reusable improvement to the public reference
+title: "[Feature]: "
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or ecosystem gap
+      description: Explain the maintainer or user need without sharing confidential material.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed public solution
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: This proposal can be implemented without private protocols, assets, datasets, or credentials.
+          required: true

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Camera Nutrition Scale Reference",
+    "slug": "camera-nutrition-scale-reference",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "cameranutritionscale",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
